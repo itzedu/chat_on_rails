@@ -1,0 +1,38 @@
+// Place all the styles related to the chatrooms controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.user {
+	color: #00B7FF;
+}
+
+#container {
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+    border: 1px solid silver;
+}
+
+#textbox{
+    display: inline-block;
+    width: 440px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    margin-top: 5px;
+    background-color: #3399FF;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: white;
+}
